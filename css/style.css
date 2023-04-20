@@ -1,0 +1,451 @@
+* {
+   text-decoration: none;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: black;
+   background-repeat: no-repeat;
+
+}
+
+.HeaderNav {
+   height: 30px;
+   background: rgba(24, 24, 24, 1);
+   padding: 30px;
+   display: flex;
+   justify-content: space-around;
+}
+
+nav {
+   display: flex;
+}
+
+nav ul {
+   display: flex;
+}
+
+nav li {
+   margin: 0 20px;
+}
+
+li a {
+   font-size: 14px;
+   color: rgba(255, 255, 255, 1);
+}
+
+nav button {
+   width: 156px;
+   height: 42px;
+   border-radius: 14px;
+   margin-top: -10px;
+   margin-left: 30px;
+   cursor: pointer;
+   background-color: #ffffff;
+   color: rgba(0, 0, 0, 1);
+}
+
+.IMAGEBIG {
+   position: relative;
+   max-width: 100%;
+   overflow: hidden;
+}
+
+.IMAGEBIG img {
+   width: 100%;
+   max-width: 1920px;
+}
+
+.ApertureStudios {
+   width: 516px;
+   position: absolute;
+   top: 20%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.ApertureStudios {
+   width: 600px;
+   height: 210px;
+   text-align: center;
+   margin: 440px auto 0 auto;
+
+}
+
+.Photographer {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   color: rgba(192, 192, 192, 1);
+
+}
+
+.ApertureStudiosText {
+   font-size: 54px;
+   font-weight: 400;
+   line-height: 59px;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+.LoremText {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   color: rgba(192, 192, 192, 1);
+   margin-top: 18px;
+}
+
+.WhatWeDo {
+   width: 600px;
+   height: 82px;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 100px;
+}
+
+.WhatWeDoText {
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 42px;
+   color: #ffffff;
+
+}
+
+.WhatWeDoText2 {
+   font-size: 23px;
+   font-weight: 400;
+   line-height: 30px;
+   color: rgba(192, 192, 192, 1);
+   margin-top: 14px;
+
+}
+
+.IMAGESCONTAINER {
+   margin-top: 42px;
+}
+
+.IMAGE1 {
+   position: relative;
+}
+
+.TEXTCONTAINER {
+   width: 516px;
+   position: absolute;
+   top: 86%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.ProductPhotography {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   color: rgba(255, 255, 255, 1);
+   margin-bottom: 10px;
+
+}
+
+.CrasCommodoText {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   color: rgba(192, 192, 192, 1);
+   margin-bottom: 10px;
+
+}
+
+.Button {
+   width: 110px;
+   height: 40px;
+   border-radius: 14px;
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0.4000000059604645px;
+   background-color: #ffffff;
+   color: black;
+
+}
+
+.ALLIMAGESCONTAINER {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+}
+
+.TEXTCONTAINER6 {
+   width: 300px;
+   position: absolute;
+   top: 50%;
+   left: 80%;
+   transform: translate(-50%, -50%);
+
+}
+
+.IMAGE6 {
+   position: relative;
+   max-width: 100%;
+   overflow: hidden;
+}
+
+.IMAGE6 img {
+   width: 100%;
+   max-width: 1920px;
+}
+
+.IMAGESCONTAINER6 {
+   margin-top: 100px;
+}
+
+.CONTAINERIMAGECONTENT {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.CONTAINERIMAGECONTENT img {
+   width: 50%;
+}
+
+.CONTENT {
+   width: 50%;
+   padding: 100px;
+}
+
+.GEARCAGE {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   color: rgba(192, 192, 192, 1);
+
+}
+
+.TOOLSUSE {
+   font-size: 28px;
+   font-weight: 400;
+   line-height: 32px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   margin: 6px 0 6px 0;
+
+
+}
+
+.NOPLACEBORING {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+   margin-bottom: 20px;
+
+}
+
+.CHECKBUTTON {
+   width: 130px;
+   height: 42px;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0.4000000059604645px;
+   text-align: center;
+   color: rgba(0, 0, 0, 1);
+   cursor: pointer;
+   border-radius: 14px;
+
+}
+
+.CLIENTSCONTAINER {
+   background-color: rgba(0, 0, 0, 1);
+   height: 500px;
+}
+
+.PASTCLIENTSBOX {
+   width: 600px;
+   height: 82px;
+   margin: 112px auto;
+}
+
+.PASTCLIENTS {
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 42px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+.FAVOURITECOMPANIE {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: rgba(192, 192, 192, 1);
+   margin-top: 14px;
+
+}
+
+.CONTAINERFORLOGO {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.NEEDHELPBOX {
+   height: 414px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+.NEEDHELP {
+   width: 570px;
+   font-size: 40px;
+   font-weight: 400;
+   line-height: 42px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: rgba(255, 255, 255, 1);
+}
+
+.FORYOU {
+   width: 224px;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 30px;
+   letter-spacing: 0em;
+   text-align: center;
+   color: rgba(192, 192, 192, 1);
+}
+
+.FOOTER {
+   background-color: rgba(0, 0, 0, 1);
+   height: 652px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.FOOTERPHOTOGRAPHERS {
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(192, 192, 192, 1);
+   margin-top: 20px;
+
+}
+
+.BUSINESAREA {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   color: rgba(192, 192, 192, 1);
+
+}
+
+.BUSINESFOOTERTEXTS {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+.BUSINESFOOTERAREA {
+   width: 220px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 10px;
+}
+
+.FOOTERPHOTOGRAPHERSBOX {
+   width: 700px;
+}
+
+.LINE1 {
+   width: 1168px;
+   height: 2px;
+   background-color: rgba(255, 255, 255, 1);
+   margin: -350px auto 40px auto;
+
+}
+
+.SUBSCRIBE {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   color: rgba(255, 255, 255, 1);
+
+}
+
+.READABOUTWEDO {
+   font-size: 13px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(192, 192, 192, 1);
+
+}
+
+.BIGBUTTON {
+   width: 458px;
+   height: 52px;
+   border-radius: 12px;
+   cursor: pointer;
+}
+
+.SUBREADBIGBOX {
+   display: flex;
+   justify-content: space-around;
+}
+
+.LINE2 {
+   width: 1168px;
+   height: 2px;
+   background-color: rgba(255, 255, 255, 1);
+   margin: 40px auto 80px auto;
+
+}
+
+.ALLRIGHTS {
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 20px;
+   letter-spacing: 0em;
+   text-align: left;
+   color: rgba(192, 192, 192, 1);
+   margin-right: 256px;
+
+}
+
+.RIGHTSFBINTWBOX {
+   display: flex;
+   justify-content: space-around
+}
+
+.FBTWIGLOGOS {
+   display: flex;
+   gap: 20px;
+}
